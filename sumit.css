@@ -1,0 +1,93 @@
+body{
+    background: url(space.jpg) no-repeat center center fixed #000;
+    background-size: cover;
+}
+ul{}
+.col-item{
+    display: inline;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    font-weight: 600;
+    text-align: center;
+    border: 3px solid #4caf50bd;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 15px;
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: 3px 3px;
+}
+.col-item:hover{
+    
+    background-color: #4caf50bd
+    
+}
+.clicked-word{
+    clear: both;
+    text-align: center;
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 500;
+    margin: 10px;
+}
+.row{
+
+    border-radius: 2px solid black;
+    display: inline;
+}
+.answer-table{
+    height: 500px;
+    display: inherit;
+    
+}
+.letters{
+    display: flex;
+}
+.letter{
+    display: inline;
+    max-width: 16%;
+    width: 16%;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 50px;
+}
+.clear-left{
+    clear: left;
+}
+.answers{
+     
+    display: inline;
+    margin-top: 50px;
+    height: 400px;
+    font-size: 4vw!important;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 2px 2px ;
+    width: 16%;
+    float: left;
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.answer-container{
+    display: flex;
+}
+
+.owner{
+    margin-top: 20px;
+    text-align: center;
+}
+.score{
+    text-align: center;
+    font-size: 30px;
+}
+
